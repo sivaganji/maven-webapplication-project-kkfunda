@@ -24,7 +24,7 @@ node {
     sh """
         curl -u siva:Sivasankarreddy#123 \
         --upload-file /var/lib/jenkins/workspace/scriptedpipeline/target/maven-web-application.war \
-        "http://3.136.154.148:8080/manager/text/deploy?path=/maven-web-application&update=true"
+        "http://18.188.111.18:8080/manager/text/deploy?path=/maven-web-application&update=true"
     """
    }
 }catch (e) {
